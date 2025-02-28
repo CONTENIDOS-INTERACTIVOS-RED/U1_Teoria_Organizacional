@@ -22,8 +22,7 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema3/1.png', alt='')
 
-    #t_3_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.1] Subtítulo tema
+   
 
     .bg-full-width.border-top.actividad.bg-color-actividad
       .p-4.p-md-5
@@ -39,15 +38,19 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://www.redalyc.org/articulo.oa?id=667974502004" target="_blank" rel="noopener noreferrer") De la Rosa Leal, M. E. (2021). El enfoque de sostenibilidad en las teorías organizacionales. Trascender, contabilidad y gestión, 6(17).  
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.researchgate.net/publication/375025906_Teoria_organizacional_y_estudios_organizacionales_dos_denominaciones_para_un_mismo_campo_de_conocimiento" target="_blank" rel="noopener noreferrer") Saavedra Mayorga, J. J., & Sanabria, M. (s.f.). Teoría organizacional y estudios organizacionales: Dos denominaciones para un mismo campo de conocimiento. ResearchGate. Recuperado de  
+
+           
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://youtu.be/L19AYM6zdcU?si=fDhobVKoIQeduzhx " target="_blank" rel="noopener noreferrer") Campus virtual  (2018, 13 de diciembre). Teoría de la contingencia o situacional [Video]. YouTube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/fjmXY2XfJfs?si=70aYmri_AzzWRkBH " target="_blank" rel="noopener noreferrer") Curious Fact (2020, 24 de abril). Teoría general sistemas.  [Video]. YouTube 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
@@ -74,155 +77,164 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál de los siguientes eventos históricos marcó un avance significativo en la organización y división del trabajo?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'La construcción de las pirámides de Egipto',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'La Revolución Francesa.',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'La invención de la imprenta.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'La caída del Imperio Romano.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              '¡Claro que si! Este evento demuestra cómo la división del trabajo y el liderazgo coordinado permitieron alcanzar metas monumentales en la antigüedad.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Qué característica distingue la organización como función administrativa de la organización como unidad administrativa?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Su enfoque en los recursos humanos.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
+                texto: 'La jerarquización de responsabilidades',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
-                esCorrecta: false,
+                texto:
+                  'La planificación de estrategias para cumplir objetivos. ',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'La asignación de puestos de trabajo.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              '¡Exacto! La organización como función administrativa enfatiza cómo las actividades interrelacionadas logran objetivos de manera eficiente y estratégica.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Qué aspecto influyó directamente en el surgimiento de las teorías organizacionales durante la Revolución Industrial?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'La reducción de la demanda de productos en el mercado.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto:
+                  'La necesidad de adaptar el trabajo artesanal a procesos mecanizados. ',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'El aumento del empleo en la agricultura.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'La creación de gremios medievales.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              '¡Muy bien! La mecanización transformó la producción y generó la necesidad de nuevas formas de organización empresarial y administrativa.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Cuál es el propósito principal de las teorías organizacionales según diferentes autores?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Eliminar conflictos internos dentro de las empresas.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto:
+                  'Diseñar estructuras empresariales eficientes y productivas. ',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Establecer jerarquías rígidas en las organizaciones.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Fomentar el desarrollo del sindicalismo.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              '¡Muy bien! Las teorías organizacionales proporcionan herramientas clave para optimizar el desempeño y alcanzar la productividad empresarial',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Qué influencia histórica se destacó en el desarrollo inicial de la administración moderna?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto: 'La estructura militar y la Revolución Industrial. ',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'La caída del Imperio Bizantino.',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'El surgimiento de la economía de mercado.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'La expansión del feudalismo europeo.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              '¡Excelente! Ambas influyeron en la sistematización del trabajo y en la implementación de jerarquías y procesos organizativos de áreas críticas de mejora.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
         ],

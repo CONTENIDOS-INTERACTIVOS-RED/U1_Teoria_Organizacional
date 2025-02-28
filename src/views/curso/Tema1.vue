@@ -13,10 +13,10 @@
         figure
           img(src="@/assets/curso/tema1/1.png", alt="", data-aos="zoom-in")
 
-    .bg-full-width.bg-color-4.mb-lg-5
+    .bg-full-width.bg-color-4.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
-          .col-lg-8.order-2
+          .col-lg-8.order-1.order-lg-2.mb-3.mb-lg-0
             h2.mb-4(data-aos="flip-up") Definición y origen de las organizaciones 
             p.mb-4(data-aos="fade-right") La definición y el origen de las organizaciones son fundamentales para comprender su naturaleza y evolución a lo largo del tiempo. En el PDF <b>Definición y origen de las organizaciones</b>, se exploran los conceptos clave que han dado forma a las organizaciones, desde sus raíces etimológicas y perspectivas teóricas hasta los antecedentes históricos que evidencian su impacto en la sociedad. Este recurso analiza cómo las organizaciones han surgido como respuesta a las necesidades humanas de colaboración y estructuración, adaptándose a los cambios sociales y económicos para alcanzar objetivos comunes de manera eficiente.
     
@@ -24,9 +24,9 @@
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Definición y origen de las organizaciones .
+                p <strong>Anexo. </strong> Definición y origen de las organizaciones.
     
-          .col-lg-4.order-1.mb-3.mb-lg-0
+          .col-lg-4.order-2.order-lg-1
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/2.png', alt='')
 
@@ -92,15 +92,15 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://www.redalyc.org/articulo.oa?id=35375182002" target="_blank" rel="noopener noreferrer") Morente, F., & Ferràs, X. (2017). El giro cultural en la teoría organizacional. Prisma Social, 18, 2–14.
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://doi.org/10.36791/tcg.v0i17.102" target="_blank" rel="noopener noreferrer") Rosa Leal, María Eugenia De la. (2021). El enfoque de sostenibilidad en las teorías organizacionales. Trascender, contabilidad y gestión, 6(17), 87-102. Epub 22 de noviembre de 2021
+           
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://youtu.be/pVssWTLPSHs?si=bmh6Yg1m5NgzsNj2" target="_blank" rel="noopener noreferrer") Campus virtual (2018, 5 de diciembre) Nuevas formas de organización   [Video]. YouTube 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
