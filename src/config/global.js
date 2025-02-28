@@ -15,13 +15,13 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: '1. Evolución histórica de las teorías organizacionales',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Teorías organizacionales',
             hash: 't_1_1',
           },
           {
@@ -63,7 +63,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Transición de enfoques mecanicistas a sistémicos',
         desarrolloContenidos: true,
         subMenu: [
           {
