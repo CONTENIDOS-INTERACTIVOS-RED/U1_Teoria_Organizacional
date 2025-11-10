@@ -92,7 +92,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.redalyc.org/articulo.oa?id=35375182002" target="_blank" rel="noopener noreferrer") Morente, F., & Ferràs, X. (2017). El giro cultural en la teoría organizacional. Prisma Social, 18, 2–14.
+              a(href="https://revistaprismasocial.es/article/view/1416" target="_blank" rel="noopener noreferrer") Morente, F., & Ferràs, X. (2017). El giro cultural en la teoría organizacional. Prisma Social, 18, 2–14.
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://doi.org/10.36791/tcg.v0i17.102" target="_blank" rel="noopener noreferrer") Rosa Leal, María Eugenia De la. (2021). El enfoque de sostenibilidad en las teorías organizacionales. Trascender, contabilidad y gestión, 6(17), 87-102. Epub 22 de noviembre de 2021

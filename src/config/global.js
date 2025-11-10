@@ -103,12 +103,6 @@ export default {
     },
     {
       referencia:
-        'Polanco, Y. J. Santos, P. & Cruz, G. A. D. L. (2020). Teoría y estructura organizacional: ( ed.). Universidad Abierta para Adultos (UAPA). ',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/175883?page=7 ',
-    },
-    {
-      referencia:
         'Daniel Zalazar, R. J. (2012). Introducción a la administración: paradigmas en las organizaciones: ( ed.). B - EUMED. ',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/51722 ',
     },
